@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+header {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.171), rgba(111, 0, 255, 0.295), rgb(0, 0, 0) ),url(https://getwallpapers.com/wallpaper/full/2/2/7/1202040-most-popular-coding-wallpaper-hd-1080x1920-pc.jpg);
+    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  }
+
+header h1 {
+    margin: 5%;
+    display: inline;
+    color: white;
+    padding: 10px;
+    font-size: 4rem;
+}
+
+header h3{
+  margin-left: 0%;
+  display: inline;
+  color: white;
+}
+  
+nav {
+  background: rgba(4, 13, 51, 0.37);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: black;
+  background: white;
+  border-radius: 75px;
+}
+
+.background{
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to bottom right,rgb(94, 2, 94), grey, rgb(108, 108, 250));
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.background div {
+  flex: 0 0 90%;
+}
+
+.background > p {
+  margin: 0;
+}
+
+.navlink {
+    flex: 1 0 20%;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease-in;
+    font-size: 1.5rem;
+}
+
+.content-container {
+  margin: 5% 10%;
+  background: rgba(139, 139, 139, 0.596);
+}
+
+.content {
+  margin: 25px 10px;
+  padding: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.section-picture{
+  border-radius: 100px;
+}
+
+.left-content {
+  flex-direction: row;
+}
+
+.right-content {
+  flex-direction: row-reverse;
+}
+.content > h2 {
+  flex: 0 0 20%;
+  font-size: 4vw;
+  line-height: 1.1;
+}
+
+.leftalign{
+  text-align: left;
+  padding-right: 15px;
+  border-bottom: 4px inset green;
+  border-right: 4px outset green;
+}
+
+.rightalign{
+  text-align: right;
+  padding-left: 15px;
+  border-bottom: 4px inset green;
+  border-left: 4px inset green;
+}
+
+.content > article {
+  flex: 0 0 77%;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border-top: 5px ridge rgb(68, 68, 68);
+  border-right: 5px ridge rgb(68, 68, 68);
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.658);
+  color: white;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: 30.7%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+.flex-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-item:first-child {
+  flex-basis: 100%;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 10px;
+}
+
+.flex-item div {
+  background-color: rgba(37, 37, 37, 0.568);
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: auto;
+  padding: 8px 8px;
+}
+
+.flex-item h3 {
+  font-size: 1.6rem;
+}
+
+.contact address {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact address a {
+  display: inline-block;
+  align-items:center;
+  border-radius: 25px;
+}
+
+.contact address a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 1s;
+}
+
+.run-buddy {
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
+.led-wall {
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.react-calc {
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+.pastel-puzzles {
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.surf-report {
+  background-image: url("../images/CSSSnippet.jpeg");
+}
+
+#bio{
+  scroll-margin-top: 200px;
+}
+#projects{
+  scroll-margin-top: 150px;
+}
+
+#bio-picture{
+  
+  width: 125x;
+  height: 125px;
+}
+
+#project-image{
+  margin-top: 10%;
+  width: 200px;
+  height: 225px;
+}
+
+#phone, #email, #github, #linkedin{
+  margin: 15px;
+  width: 125px;
+  height: 100px;
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header h3{
+    display: block;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .content{
+    flex-direction: column;
+  }
+
+  .content > h2,
+  .content > div {
+    flex: 0 0 97.5%;
+  }
+
+  .content > h2 {
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 7vw;
+  }
+
+  .flex-item{
+    flex-basis: 46.5%;
+  }
+
+  .flex-item:last-child {
+    flex-basis: 100%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  #projects{
+    scroll-margin-top: 200px;
+  }
+
+  #phone, #email, #github, #linkedin{
+    align-items:center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 75px;
+  }
+
+  #project-image{
+    margin-top: 0;;
+    width:125px;
+    height:125px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  
+
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .flex-item:first-child {
+    min-height: 150px;
+  }
+
+  .content {
+    align-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact address {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+}
