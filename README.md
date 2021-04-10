@@ -31,7 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ### Site Image
-![Refactored Mock-Up](./assets/images/SiteImage.jpg)
+![Refactored Mock-Up](./assets/images/SiteImage.jpeg)
 
 ### Link to Live Page
 https://ortizalex.github.io/AO-Homework2-Portfolio/
